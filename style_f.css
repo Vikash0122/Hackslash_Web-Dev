@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family:'Times New Roman';
+  background-color: beige;
+}
+
+html {
+  font-size: 67.2%;
+  font-family: "Times New Roman";
+}
+
+body {
+  padding: 1.5rem;
+  background-color: aqua;
+}
+
+.search_bar {
+  border-radius: 10rem;
+  width: 30rem;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.search-products {
+  background-color:aqua;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.item {
+  width: 25rem;
+  background-color:darkgoldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 1rem;
+}
+
+.desc {
+  font-size: 1.2rem;
+}
